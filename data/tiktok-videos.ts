@@ -1,0 +1,135 @@
+import { TikTokVideo } from '../types/social';
+
+// TikTok Videos Data - All 10 Quantum Physics Topics
+export const tiktokVideos: TikTokVideo[] = [
+  {
+    id: 1,
+    username: 'quantum_explainer',
+    userImage: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=500&fit=crop',
+    likes: 12500,
+    comments: 234,
+    shares: 89,
+    caption: '🌊⚛️ Wave-Particle Duality explained in 60 seconds! Light is both a wave AND a particle - mind blown! #quantumphysics #waveparticle #physics #learning',
+    music: 'Quantum Vibes - quantum_explainer',
+    isFollowing: false,
+    userId: 1
+  },
+  {
+    id: 2,
+    username: 'physics_teacher',
+    userImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041408-e94f4f52d362?w=300&h=500&fit=crop',
+    likes: 8900,
+    comments: 156,
+    shares: 45,
+    caption: '🎯 Superposition: The cat is BOTH alive AND dead until you look! This is how quantum computers work! #superposition #schrodinger #quantumcomputing',
+    music: 'Physics Beats - physics_teacher',
+    isFollowing: false,
+    userId: 2
+  },
+  {
+    id: 3,
+    username: 'quantum_researcher',
+    userImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=500&fit=crop',
+    likes: 15600,
+    comments: 312,
+    shares: 78,
+    caption: '🔗 Quantum Entanglement: Einstein\'s "spooky action at a distance"! Instant communication across the universe! #entanglement #quantum #einstein',
+    music: 'Spooky Quantum Sounds - quantum_researcher',
+    isFollowing: false,
+    userId: 3
+  },
+  {
+    id: 4,
+    username: 'uncertainty_guru',
+    userImage: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041408-e94f4f52d362?w=300&h=500&fit=crop',
+    likes: 23400,
+    comments: 567,
+    shares: 123,
+    caption: '📏 Heisenberg Uncertainty: You can\'t know position AND momentum perfectly! It\'s not a bug, it\'s a feature! #uncertainty #heisenberg #quantum',
+    music: 'Uncertainty Beats - uncertainty_guru',
+    isFollowing: false,
+    userId: 4
+  },
+  {
+    id: 5,
+    username: 'tunnel_expert',
+    userImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=500&fit=crop',
+    likes: 18900,
+    comments: 445,
+    shares: 156,
+    caption: '🚇 Quantum Tunneling: Particles teleport through walls! This powers your flash memory and makes the sun shine! #tunneling #quantum #physics',
+    music: 'Tunnel Sounds - tunnel_expert',
+    isFollowing: false,
+    userId: 5
+  },
+  {
+    id: 6,
+    username: 'uncertainty_expert',
+    userImage: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041408-e94f4f52d362?w=300&h=500&fit=crop',
+    likes: 14500,
+    comments: 289,
+    shares: 67,
+    caption: '📊 Uncertainty Principle in Action: The more precisely you measure one property, the less you know about its pair! It\'s built into quantum reality! #uncertainty #quantum #measurement',
+    music: 'Uncertainty Action - uncertainty_expert',
+    isFollowing: false,
+    userId: 6
+  },
+  {
+    id: 7,
+    username: 'bloch_sphere_master',
+    userImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=500&fit=crop',
+    likes: 16700,
+    comments: 345,
+    shares: 89,
+    caption: '🌐 Bloch Sphere Snapshot: Visualize qubit states as points on a globe! Poles are 0 and 1, everything in between is superposition! #blochsphere #quantumcomputing #qubit',
+    music: 'Sphere Sounds - bloch_sphere_master',
+    isFollowing: false,
+    userId: 7
+  },
+  {
+    id: 8,
+    username: 'gate_operator',
+    userImage: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041408-e94f4f52d362?w=300&h=500&fit=crop',
+    likes: 12300,
+    comments: 234,
+    shares: 56,
+    caption: '⚡ Quantum Gates: The Hadamard gate transforms |0⟩ into equal superposition! This is the foundation of quantum algorithms! #quantumgates #hadamard #quantumcomputing',
+    music: 'Gate Operations - gate_operator',
+    isFollowing: false,
+    userId: 8
+  },
+  {
+    id: 9,
+    username: 'tunneling_enthusiast',
+    userImage: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=300&h=500&fit=crop',
+    likes: 19800,
+    comments: 456,
+    shares: 123,
+    caption: '🚇 Quantum Tunneling in a Nutshell: Particles pass through barriers they shouldn\'t cross! Powers flash memory and nuclear fusion! #tunneling #quantum #physics #technology',
+    music: 'Tunneling Vibes - tunneling_enthusiast',
+    isFollowing: false,
+    userId: 9
+  },
+  {
+    id: 10,
+    username: 'quantum_optimist',
+    userImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face',
+    videoThumbnail: 'https://images.unsplash.com/photo-1635070041408-e94f4f52d362?w=300&h=500&fit=crop',
+    likes: 25600,
+    comments: 567,
+    shares: 189,
+    caption: '🚀 Quantum Advantage: When quantum computers solve problems faster than classical ones! Not for every problem, but the difference can be enormous! #quantumadvantage #quantumcomputing #future',
+    music: 'Advantage Beats - quantum_optimist',
+    isFollowing: false,
+    userId: 10
+  }
+];
